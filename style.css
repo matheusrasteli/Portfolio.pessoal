@@ -221,18 +221,39 @@ menu li ul a:hover{
 #passa {
     background: url(imagens/background_livros.jpg) center center no-repeat fixed;
     background-size: cover;
-    display: flexbox;
+    display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     width: 100vw;
 }
-
+#passa p{
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-color: #00ffffcb;
+    margin-right: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+}
 #passa article img {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 150px;
     width: 150px;
+    margin: 20px;
+    box-shadow: 7px 5px 10px#1610198f;
+    border-radius: 10px;
+}
+
+#passa article img:hover {
+    height: 200px;
+    width: 200px;
+    border-radius: 0px;
+    box-shadow: 7px 5px 8px#161019;
+    transition-duration: 0.8s;
 
 }
