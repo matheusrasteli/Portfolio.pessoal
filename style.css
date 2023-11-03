@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* cor forte #2d325o
+    cor fraca #42476g
+    cor mais fraca #676fgd
+    cord de botão fgb17a */
+
+*{
+    width: 100vw;
+    font-family: 'Pixelify Sans', sans-serif; 
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(45deg, #0a9e9e6c, rgb(34, 35, 36), black);
+}
+main{
+    margin: auto;
+    width: 100vw;
+}
+
+.normal {
+    text-align: center;
+    width: auto;
+    padding: 10px;
+    height: 70vh;
+    background-image: linear-gradient(35deg, rgba(0, 0, 0, 0.541),rgba(0, 0, 0, 0.377), rgb(10, 2, 2));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: larger;
+    font-size: 25px;
+    text-shadow: 5px 3px 7px #2d325075;
+
+}
+header {
+    display: flex;
+    background: url(imagens/background_header.jpg) center center no-repeat fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    text-wrap: ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 50vh;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.452);
+    font-size: larger;
+    
+
+}
+#iconemenu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #161019;
+    box-shadow: 3px 5px 10px #00000033;
+    color: white;
+
+}
+#iconemenu:hover{
+    color: #eeaa74;
+    transition-duration: 0.5s;
+    
+}
+menu {
+    display: block;
+    background-color: #0a9e9e6c;
+    padding: 0px;
+    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.486);
+}
+menu li {
+    list-style: none;
+    text-decoration: none;
+}
+menu li ul a {
+    color: white;
+    padding: 10px 0px 10px 0px;
+    padding: auto;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
+    text-shadow: 3px 5px 10px black;
+    
+}
+menu li ul a:hover{
+    text-transform: uppercase;
+    color: #eeaa74;
+    text-decoration: underline;
+    transition-duration: 0.5s;
+
+}
+#sobre {
+    width: auto;
+    padding: 10px;
+    height: 70vh;
+    background-image: linear-gradient(35deg, rgba(0, 0, 0, 0.322),rgba(207, 197, 197, 0.151), rgb(10, 2, 2));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#sobre p {
+    cursor: pointer;
+    display: flex;
+    color: white;
+    background-color: #00ffff25;
+    margin-right: 25px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+
+}
+
+
+#fotoperfil img {
+    cursor: pointer;
+    padding: 0px;
+    border-radius: 100px;
+    height: 200px;
+    width: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.411);
+    
+}
+ #fotoperfil img:hover {
+
+    height: 250px ;
+    width: 250px;
+    border-radius: 0px;
+    transition-duration: 1s;
+ }
+#tecnologia {
+    height: 70vh;
+    width: auto;
+    background: url(imagens/maxresdefault.jpg) center center no-repeat fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tecnologia article {
+    
+    height: 70vh;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#tecnologia article a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    
+}
+
+#tecnologia article a:hover {
+    text-transform: uppercase;
+    font-size: 25px;
+    transition-duration: 0.8s;
+
+}
+
+#tecnologia svg {
+    padding: 0px;
+    display: flexbox;
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+    background-color: #00ffff6c;
+    border-radius: 10px;
+}
+
+#tecnologia svg:hover{
+    height: 100px;
+    width: 100px;
+    background-color: #eeab74a4;
+    border-radius: 0px;
+    transition-duration: 0.8s;
+
+}
+
+#projetos {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#projetos a img {
+    margin: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 20px;
+    box-shadow: 7px 3px 10px rgba(0, 0, 0, 0.747);
+}
+#projetos a img:hover {
+    height: 300px;
+    width: 300px;
+    box-shadow: 7px 3px 10px black;
+}
+
