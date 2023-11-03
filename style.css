@@ -19,6 +19,9 @@ main{
     margin: auto;
     width: 100vw;
 }
+section {
+    box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.76);
+}
 
 .normal {
     text-align: center;
@@ -177,12 +180,13 @@ menu li ul a:hover{
 
 #tecnologia svg {
     padding: 0px;
-    display: flexbox;
+    display: flex;
     height: 50px;
     width: 50px;
     margin: 0px;
     background-color: #00ffff6c;
     border-radius: 10px;
+    box-shadow: 7px 5px 10px black;
 }
 
 #tecnologia svg:hover{
@@ -232,7 +236,7 @@ menu li ul a:hover{
     cursor: pointer;
     display: flex;
     color: rgb(0, 0, 0);
-    background-color: #00ffffcb;
+    background-color: #086d6dcb;
     margin-right: 25px;
     padding: 5px;
     border-radius: 10px;
@@ -256,4 +260,62 @@ menu li ul a:hover{
     box-shadow: 7px 5px 8px#161019;
     transition-duration: 0.8s;
 
+}
+#redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(45deg, #021a1acb, #033636e3, #12e6e6cb );
+}
+
+#redes article {
+    display: flex;
+    align-items: center;
+    height: 70vh;
+    width: 70vw;
+    
+}
+
+#redes article svg {
+
+    display: flex;
+    height: 50px;
+    width: 50px;
+    margin: 0px;
+    background-color: #00ffff02;
+    border-radius: 20px;
+    box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.678);
+}
+
+#redes article svg:hover {
+    height: 100px;
+    width: 100px;
+    box-shadow: 7px 5px 10px rgb(0, 0, 0);
+    background-color: #eeab7454;
+    transition-duration: 0.8S;
+}
+
+#redes article a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#redes article a:hover {
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    color: white;
 }
