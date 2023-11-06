@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 764px) {
+    #iconemenu {
+        display: none;
+    }
+    menu {
+        display: flex;
+    }
+    menu ul{
+        padding: 0px;
+        margin: 0px;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        align-items: initial;
+        justify-content: initial
+        
+    }
+    menu ul li {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin: 0px;
+        padding: 0px;
+        height: 50px;
+        width: 50px;
+    }
+    menu li ul a{
+        margin: 10px;
+        display: flex;
+        fle
+    }
+}
